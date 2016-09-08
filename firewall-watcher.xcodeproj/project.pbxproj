@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAADFFE01D703574001D87FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADFFDF1D703574001D87FF /* AppDelegate.swift */; };
+		CAADFFE21D703574001D87FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAADFFE11D703574001D87FF /* Assets.xcassets */; };
+		CAADFFE51D703574001D87FF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAADFFE31D703574001D87FF /* MainMenu.xib */; };
+		CAADFFF01D703574001D87FF /* firewall_watcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADFFEF1D703574001D87FF /* firewall_watcherTests.swift */; };
+		CAADFFFB1D703574001D87FF /* firewall_watcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADFFFA1D703574001D87FF /* firewall_watcherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAADFFEC1D703574001D87FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAADFFD41D703574001D87FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAADFFDB1D703574001D87FF;
+			remoteInfo = "firewall-watcher";
+		};
+		CAADFFF71D703574001D87FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAADFFD41D703574001D87FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAADFFDB1D703574001D87FF;
+			remoteInfo = "firewall-watcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAAD00081D7035A9001D87FF /* firewall-watcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "firewall-watcher.entitlements"; sourceTree = "<group>"; };
+		CAADFFDC1D703574001D87FF /* firewall-watcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "firewall-watcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAADFFDF1D703574001D87FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAADFFE11D703574001D87FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAADFFE41D703574001D87FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CAADFFE61D703574001D87FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAADFFEB1D703574001D87FF /* firewall-watcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "firewall-watcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAADFFEF1D703574001D87FF /* firewall_watcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firewall_watcherTests.swift; sourceTree = "<group>"; };
+		CAADFFF11D703574001D87FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAADFFF61D703574001D87FF /* firewall-watcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "firewall-watcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAADFFFA1D703574001D87FF /* firewall_watcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firewall_watcherUITests.swift; sourceTree = "<group>"; };
+		CAADFFFC1D703574001D87FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAADFFD91D703574001D87FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAADFFE81D703574001D87FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAADFFF31D703574001D87FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAADFFD31D703574001D87FF = {
+			isa = PBXGroup;
+			children = (
+				CAADFFDE1D703574001D87FF /* firewall-watcher */,
+				CAADFFEE1D703574001D87FF /* firewall-watcherTests */,
+				CAADFFF91D703574001D87FF /* firewall-watcherUITests */,
+				CAADFFDD1D703574001D87FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAADFFDD1D703574001D87FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAADFFDC1D703574001D87FF /* firewall-watcher.app */,
+				CAADFFEB1D703574001D87FF /* firewall-watcherTests.xctest */,
+				CAADFFF61D703574001D87FF /* firewall-watcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAADFFDE1D703574001D87FF /* firewall-watcher */ = {
+			isa = PBXGroup;
+			children = (
+				CAAD00081D7035A9001D87FF /* firewall-watcher.entitlements */,
+				CAADFFDF1D703574001D87FF /* AppDelegate.swift */,
+				CAADFFE11D703574001D87FF /* Assets.xcassets */,
+				CAADFFE31D703574001D87FF /* MainMenu.xib */,
+				CAADFFE61D703574001D87FF /* Info.plist */,
+			);
+			path = "firewall-watcher";
+			sourceTree = "<group>";
+		};
+		CAADFFEE1D703574001D87FF /* firewall-watcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAADFFEF1D703574001D87FF /* firewall_watcherTests.swift */,
+				CAADFFF11D703574001D87FF /* Info.plist */,
+			);
+			path = "firewall-watcherTests";
+			sourceTree = "<group>";
+		};
+		CAADFFF91D703574001D87FF /* firewall-watcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAADFFFA1D703574001D87FF /* firewall_watcherUITests.swift */,
+				CAADFFFC1D703574001D87FF /* Info.plist */,
+			);
+			path = "firewall-watcherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAADFFDB1D703574001D87FF /* firewall-watcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAADFFFF1D703574001D87FF /* Build configuration list for PBXNativeTarget "firewall-watcher" */;
+			buildPhases = (
+				CAADFFD81D703574001D87FF /* Sources */,
+				CAADFFD91D703574001D87FF /* Frameworks */,
+				CAADFFDA1D703574001D87FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "firewall-watcher";
+			productName = "firewall-watcher";
+			productReference = CAADFFDC1D703574001D87FF /* firewall-watcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAADFFEA1D703574001D87FF /* firewall-watcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAAD00021D703574001D87FF /* Build configuration list for PBXNativeTarget "firewall-watcherTests" */;
+			buildPhases = (
+				CAADFFE71D703574001D87FF /* Sources */,
+				CAADFFE81D703574001D87FF /* Frameworks */,
+				CAADFFE91D703574001D87FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAADFFED1D703574001D87FF /* PBXTargetDependency */,
+			);
+			name = "firewall-watcherTests";
+			productName = "firewall-watcherTests";
+			productReference = CAADFFEB1D703574001D87FF /* firewall-watcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAADFFF51D703574001D87FF /* firewall-watcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAAD00051D703574001D87FF /* Build configuration list for PBXNativeTarget "firewall-watcherUITests" */;
+			buildPhases = (
+				CAADFFF21D703574001D87FF /* Sources */,
+				CAADFFF31D703574001D87FF /* Frameworks */,
+				CAADFFF41D703574001D87FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAADFFF81D703574001D87FF /* PBXTargetDependency */,
+			);
+			name = "firewall-watcherUITests";
+			productName = "firewall-watcherUITests";
+			productReference = CAADFFF61D703574001D87FF /* firewall-watcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAADFFD41D703574001D87FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Anton Dumler";
+				TargetAttributes = {
+					CAADFFDB1D703574001D87FF = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					CAADFFEA1D703574001D87FF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CAADFFDB1D703574001D87FF;
+					};
+					CAADFFF51D703574001D87FF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CAADFFDB1D703574001D87FF;
+					};
+				};
+			};
+			buildConfigurationList = CAADFFD71D703574001D87FF /* Build configuration list for PBXProject "firewall-watcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAADFFD31D703574001D87FF;
+			productRefGroup = CAADFFDD1D703574001D87FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAADFFDB1D703574001D87FF /* firewall-watcher */,
+				CAADFFEA1D703574001D87FF /* firewall-watcherTests */,
+				CAADFFF51D703574001D87FF /* firewall-watcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAADFFDA1D703574001D87FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAADFFE21D703574001D87FF /* Assets.xcassets in Resources */,
+				CAADFFE51D703574001D87FF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAADFFE91D703574001D87FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAADFFF41D703574001D87FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAADFFD81D703574001D87FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAADFFE01D703574001D87FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAADFFE71D703574001D87FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAADFFF01D703574001D87FF /* firewall_watcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAADFFF21D703574001D87FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAADFFFB1D703574001D87FF /* firewall_watcherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAADFFED1D703574001D87FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAADFFDB1D703574001D87FF /* firewall-watcher */;
+			targetProxy = CAADFFEC1D703574001D87FF /* PBXContainerItemProxy */;
+		};
+		CAADFFF81D703574001D87FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAADFFDB1D703574001D87FF /* firewall-watcher */;
+			targetProxy = CAADFFF71D703574001D87FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAADFFE31D703574001D87FF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAADFFE41D703574001D87FF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAAD00001D703574001D87FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "firewall-watcher/firewall-watcher.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "firewall-watcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jagile.firewall-watcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAAD00011D703574001D87FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "firewall-watcher/firewall-watcher.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "firewall-watcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jagile.firewall-watcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAAD00031D703574001D87FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "firewall-watcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jagile.firewall-watcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firewall-watcher.app/Contents/MacOS/firewall-watcher";
+			};
+			name = Debug;
+		};
+		CAAD00041D703574001D87FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "firewall-watcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jagile.firewall-watcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firewall-watcher.app/Contents/MacOS/firewall-watcher";
+			};
+			name = Release;
+		};
+		CAAD00061D703574001D87FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "firewall-watcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jagile.firewall-watcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "firewall-watcher";
+			};
+			name = Debug;
+		};
+		CAAD00071D703574001D87FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "firewall-watcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jagile.firewall-watcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "firewall-watcher";
+			};
+			name = Release;
+		};
+		CAADFFFD1D703574001D87FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAADFFFE1D703574001D87FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAAD00021D703574001D87FF /* Build configuration list for PBXNativeTarget "firewall-watcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAAD00031D703574001D87FF /* Debug */,
+				CAAD00041D703574001D87FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAAD00051D703574001D87FF /* Build configuration list for PBXNativeTarget "firewall-watcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAAD00061D703574001D87FF /* Debug */,
+				CAAD00071D703574001D87FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAADFFD71D703574001D87FF /* Build configuration list for PBXProject "firewall-watcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAADFFFD1D703574001D87FF /* Debug */,
+				CAADFFFE1D703574001D87FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAADFFFF1D703574001D87FF /* Build configuration list for PBXNativeTarget "firewall-watcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAAD00001D703574001D87FF /* Debug */,
+				CAAD00011D703574001D87FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAADFFD41D703574001D87FF /* Project object */;
+}

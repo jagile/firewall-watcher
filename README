@@ -1,0 +1,8 @@
+Small Mac OS X app to continuously check an URL and indicate when that URL is not available.
+
+Further development:
+
+ - Add POST request to login on a firewall for the URL
+ - Store credentials in the Mac OS X Keychain
+ - Add special hashing for firewall login, see https://github.com/felixb/cpfw-login
+
